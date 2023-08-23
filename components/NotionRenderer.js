@@ -75,6 +75,12 @@ const components = {
   Equation: dynamic(() => {
     return import('react-notion-x/build/third-party/equation').then(module => module.Equation)
   }),
+  Modal: dynamic(
+    () => import('react-notion-x/build/third-party/modal').then((m) => m.Modal),
+    {
+      ssr: false
+    }
+  ),
   // PDF (Embed block)
   Pdf: dynamic(() => {
     return import('react-notion-x/build/third-party/pdf').then(module => module.Pdf)
