@@ -6,6 +6,7 @@ import { FONTS_SANS, FONTS_SERIF } from '@/consts'
 import { useConfig } from '@/lib/config'
 import Toggle from '@/components/notion-blocks/Toggle'
 import Image from 'next/image'
+import { mapImgUrl, compressImage } from '@/lib/notion/mapImage'
 
 // Lazy-load some heavy components & override the renderers of some block types
 const components = {
@@ -144,6 +145,7 @@ export default function NotionRenderer (props) {
       <Renderer
         components={components}
         mapPageUrl={mapPageUrl}
+        mapImgUrl={mapImgUrl}
         {...props}
       />
     </>

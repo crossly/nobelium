@@ -36,6 +36,7 @@ const BLOG = {
       measurementId: 'G-730TY4T1D8' // e.g: G-XXXXXXXXXX
     }
   },
+  NOTION_HOST: process.env.NOTION_HOST || 'https://www.notion.so',
   comment: {
     // support provider: gitalk, utterances, cusdis
     provider: '', // leave it empty if you don't need any comment plugin
