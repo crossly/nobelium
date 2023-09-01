@@ -101,8 +101,8 @@ const components = {
 
   toggle_nobelium: ({ block, children }) => (
     <Toggle block={block}>{children}</Toggle>
-  )
-  nextImage: Image
+  ),
+  // nextImage: Image
 }
 
 const mapPageUrl = id => `https://www.notion.so/${id.replace(/-/g, '')}`
@@ -145,7 +145,7 @@ export default function NotionRenderer (props) {
       <Renderer
         components={components}
         mapPageUrl={mapPageUrl}
-        // mapImgUrl={mapImgUrl}
+        mapImgUrl={mapImgUrl}
         {...props}
       />
     </>
