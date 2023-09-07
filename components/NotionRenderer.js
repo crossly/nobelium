@@ -144,7 +144,7 @@ export default function NotionRenderer (props) {
       <Renderer
         components={components}
         mapPageUrl={mapPageUrl}
-        mapImgUrl={mapImageUrl}
+        mapImageUrl={mapImageUrl}
         {...props}
       />
     </>
