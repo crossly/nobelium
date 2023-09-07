@@ -4,6 +4,7 @@ const BLOG = {
   email: 'pub2free@gmail.com',
   link: 'https://www.peeg.org',
   description: '拨开思想的皮',
+  defaultImageHost: 'c1.peeg.org',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],

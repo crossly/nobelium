@@ -4,6 +4,7 @@ import { NotionRenderer as Renderer } from 'react-notion-x'
 import { getTextContent } from 'notion-utils'
 import { FONTS_SANS, FONTS_SERIF } from '@/consts'
 import { useConfig } from '@/lib/config'
+import { mapPageUrl, mapImageUrl} from '@/lib/utils'
 import Toggle from '@/components/notion-blocks/Toggle'
 import Image from 'next/image'
 import { mapImgUrl, compressImage } from '@/lib/notion/mapImage'
@@ -105,7 +106,7 @@ const components = {
   // nextImage: Image
 }
 
-const mapPageUrl = id => `https://www.notion.so/${id.replace(/-/g, '')}`
+// const mapPageUrl = id => `https://www.notion.so/${id.replace(/-/g, '')}`
 
 /**
  * Notion page renderer
