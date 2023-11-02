@@ -10,10 +10,10 @@ const Tags = ({ tags, currentTag }) => {
           return (
             <li
               key={key}
-              className={`mr-3 font-medium border whitespace-nowrap dark:text-slate-300 ${
+              className={`mr-3 font-medium border whitespace-nowrap dark:text-gray-300 ${
                 selected
-                  ? 'text-white bg-black border-black dark:bg-gray-600 dark:border-slate-600'
-                  : 'bg-gray-100 border-slate-100 text-slate-400 dark:bg-night dark:border-slate-800'
+                  ? 'text-white bg-black border-black dark:bg-gray-600 dark:border-gray-600'
+                  : 'bg-gray-100 border-gray-100 text-gray-400 dark:bg-night dark:border-gray-800'
               }`}
             >
               <Link
