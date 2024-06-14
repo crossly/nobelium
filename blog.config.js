@@ -1,5 +1,5 @@
 const BLOG = {
-  title: '皮果的皮',
+  title: '皮格日记',
   author: 'loveisbug',
   email: 'pub2free@gmail.com',
   link: 'https://www.peeg.org',
@@ -21,7 +21,7 @@ const BLOG = {
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: '',
   seo: {
-    keywords: ['皮果的皮', '拨开思想的皮', '皮果博客'],
+    keywords: ['皮格日记', '拨开思想的皮', '皮格博客'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
