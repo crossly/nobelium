@@ -1,6 +1,6 @@
 const BLOG = {
   title: '皮格日记',
-  author: 'loveisbug',
+  author: 'Ricky',
   email: 'pub2free@gmail.com',
   link: 'https://www.peeg.org',
   description: '拨开思想的皮',
